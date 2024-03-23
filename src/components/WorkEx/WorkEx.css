@@ -1,0 +1,12 @@
+.ex-container{
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 1rem;
+    position: relative;
+}
+
+.ex-container h5{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}

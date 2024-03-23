@@ -1,0 +1,161 @@
+.skills-container {
+    padding: 1rem; /* Adjust padding for smaller screens */
+}
+
+.skills-title {
+    font-size: 1.5rem; /* Decrease font size for smaller screens */
+    margin-bottom: 1rem; /* Adjust margin for smaller screens */
+    text-align: center;
+}
+
+h3 {
+    margin: 5px;
+}
+
+.skills-container {
+    max-width: 900px; /* Set maximum width */
+    margin: 60px auto;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.skills-container li {
+    margin: 10px 0; /* Adjust margin for smaller screens */
+    padding: 10px;
+    list-style: none;
+}
+
+.bar {
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.bar:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.bar span {
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236, 0, 140, 1) 0%, rgba(252, 103, 103, 1) 100%);
+}
+
+.html {
+    width: 90%;
+    animation: html 7s;
+}
+
+.css {
+    width: 80%;
+    animation: css 7s;
+}
+
+.react {
+    width: 70%;
+    animation: react 7s;
+}
+
+.mongodb {
+    width: 75%;
+    animation: mongodb 7s;
+}
+
+.express {
+    width: 85%;
+    animation: express 7s;
+}
+
+.laravel {
+    width: 90%;
+    animation: laravel 7s;
+}
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes react {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes mongodb {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+
+@keyframes express {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 85%;
+    }
+}
+
+@keyframes laravel {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+    .skills-container {
+        padding: 0.5rem; /* Adjust padding for smaller screens */
+    }
+
+    .skills-title {
+        font-size: 1.25rem; /* Decrease font size for smaller screens */
+        margin-bottom: 0.5rem; /* Adjust margin for smaller screens */
+    }
+
+    .skills-container li {
+        margin: 5px 0; /* Adjust margin for smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .skills-container {
+        max-width: 100%; /* Set maximum width to 100% for smaller screens */
+    }
+}
+
