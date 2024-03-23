@@ -1,0 +1,29 @@
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.contact-container{
+    margin: 4rem 0;
+    position: relative;
+}
+
+.contact-containe h5{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom:3rem;
+}
+.concat-content{
+    display: flex;
+    gap: 3rem;
+}
+
+@media (max-width :768px){
+    .contact-containe h5{
+        color: #fff;
+        font-size: 22px;
+        margin-left: 32%;
+    }
+    .concat-content{
+        flex-direction: column-reverse;
+    }
+}
