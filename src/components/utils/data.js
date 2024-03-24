@@ -1,41 +1,33 @@
 export const WORK_EX = [
     {
-        title:'Senoire front end',
-        date:'January 2022 -presemt',
+        title:'ARK-X Talent Factory',
+        date:'february 2024 -present',
         respos :[
-            'bla bla bla bla bla uujujsujkjnhkcjnhkcjnhkxjn',
-            'bla bla bla bla bla uujujsujkjnhkcjnhkcjnhkxjn',
-            'bla bla bla bla bla uujujsujkjnhkcjnhkcjnhkxjn',
+            'Develop the UI interface with React.js',
+            'Set up servers and APIs with Node.js and Express.js',
+            'Manage MongoDB Databases',
         ],
     },
 
     {
-        title:'Senoire front end',
-        date:'January 2022 -presemt',
+        title:'Operational internship (GOWEEB)',
+        date:'December 2023 - February 2024',
         respos :[
-            'bla bla bla bla bla uujujsujkjnhkcjnhkcjnhkxjn',
-            'bla bla bla bla bla uujujsujkjnhkcjnhkcjnhkxjn',
-            'bla bla bla bla bla uujujsujkjnhkcjnhkcjnhkxjn',
+            'Develop the UI interface with Html & css & Boostrap',
+            'Set up servers and BackEnd with Laravel',
+            'Manage MtSql Database',
         ],
     },
 
     {
-        title:'Senoire front end',
-        date:'January 2022 -presemt',
+        title:'Internship (Barid Al Maghrib)',
+        date:'April 2023 - May 2023',
         respos :[
-            'bla bla bla bla bla uujujsujkjnhkcjnhkcjnhkxjn',
-            'bla bla bla bla bla uujujsujkjnhkcjnhkcjnhkxjn',
-            'bla bla bla bla bla uujujsujkjnhkcjnhkcjnhkxjn',
-        ],
-    },
-
-    {
-        title:'Senoire front end',
-        date:'January 2022 -presemt',
-        respos :[
-            'bla bla bla bla bla uujujsujkjnhkcjnhkcjnhkxjn',
-            'bla bla bla bla bla uujujsujkjnhkcjnhkcjnhkxjn',
-            'bla bla bla bla bla uujujsujkjnhkcjnhkcjnhkxjn',
+            'Application modeling (Merise)',
+            'Manage the database (MySql)',
+            'Develop the UI interface with Html & css & Boostrap',
+            'Set up servers and BackEnd with Laravel',
+            'Manage the Authentication by Laravel Jetstream ',
         ],
     },
 ] 
